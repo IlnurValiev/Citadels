@@ -4,7 +4,7 @@ import time
 import quarters as q
 import keyboards as key
 
-TG_TOKEN = '1580328421:AAFXVehqsHe3ZJm7au7sD9lhhxkSF4xiLYk'
+TG_TOKEN = ''
 bot = telebot.TeleBot(TG_TOKEN)
 
 CHARACTERS = [
@@ -28,16 +28,7 @@ start_voters = []
 
 game_Is_Started = False
 
-ACTIVE_CHARS = [
-        '1️⃣ '+'Ассасин ' + chr(0x1F977),
-        '2️⃣ '+'Вор ' + chr(0x1F9B9),
-        '3️⃣ '+'Чародей ' + chr(0x1F9D9),
-        '4️⃣ '+'Король ' +  chr(0x1F934) ,
-        '5️⃣ '+'Епископ '  + chr(0x1F473),
-        '6️⃣ '+'Купец '  + chr(0x1F935),
-        '7️⃣ '+'Зодчий '  + chr(0x1F477),
-        '8️⃣ '+'Кондотьер '  +  chr(0x1F482)
-        ]
+ACTIVE_CHARS = CHARACTERS
 
 OPENED_CARDS = [
 
