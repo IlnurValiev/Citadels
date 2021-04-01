@@ -1894,7 +1894,6 @@ def send_text(message):
 
   mes_sync = True
 
-print('Fuck')
 
 try:                                        
     bot.polling(none_stop=True, interval=0)
