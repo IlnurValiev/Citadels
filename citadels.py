@@ -6,7 +6,7 @@ import quarters as q
 import keyboards as key
 import requests
 
-TG_TOKEN = '1648834181:AAHnaFSNiQSx5LEWVhKRL4N9I2t4P3q8pFw'
+TG_TOKEN = ''
 bot = telebot.TeleBot(TG_TOKEN)
 
 class Player():
